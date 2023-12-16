@@ -20,6 +20,6 @@ public class BlobTriggerJava {
         @BindingName("name") String name,
         final ExecutionContext context
     ) {
-        context.getLogger().info("Java Blob trigger function processed a blob. Name: " + name + "\n  Size: " + content.length + " Bytes");
+        context.getLogger().info("2nd Commit. Java Blob trigger function processed a blob. Name: " + name + ",  Size: " + content.length + " Bytes");
     }
 }
